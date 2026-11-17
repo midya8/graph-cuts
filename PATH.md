@@ -1,6 +1,6 @@
-# CutLab: the whole affine unary response
+# Graph cuts: the whole affine unary response
 
-[Live response inspector](https://midya8.github.io/cutlab/path.html) · [Original flow/cut method](METHOD.md)
+[Live response inspector](https://midya8.github.io/graph-cuts/path.html) · [Original flow/cut method](METHOD.md)
 
 ## Exact question and scope
 
