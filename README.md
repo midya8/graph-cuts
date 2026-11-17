@@ -1,8 +1,8 @@
-# CutLab
+# Graph cuts
 
-CutLab minimizes a supplied binary energy over at most six variables. It shows the graph reduction, the flow and cut that certify the minimum, and every tied optimum. Costs use exact rational arithmetic in Python and independent BigInt arithmetic in the browser.
+Graph cuts minimizes a supplied binary energy over at most six variables. It shows the graph reduction, the flow and cut that certify the minimum, and every tied optimum. Costs use exact rational arithmetic in Python and independent BigInt arithmetic in the browser.
 
-[Flow/cut inspector](https://midya8.github.io/cutlab/) · [Affine unary response inspector](https://midya8.github.io/cutlab/path.html) · [Example input](examples/demo.json)
+[Flow/cut inspector](https://midya8.github.io/graph-cuts/) · [Affine unary response inspector](https://midya8.github.io/graph-cuts/path.html) · [Example input](examples/demo.json)
 
 There are two workflows:
 
@@ -11,7 +11,7 @@ There are two workflows:
 
 Mixed signed slopes can make a label leave and return. The default response path has masks 7 → 0 → 1 at breakpoints 1/4 and 2. This is exhaustive six-variable sensitivity analysis, not scalable parametric flow.
 
-Both browser inspectors accept editable input, export the current JSON report and refuse unsupported inputs. The fixed-cost inspector also shows strict single-flip trajectories and a labeled unary-only contrast. CutLab implements established graph cuts; it is not a learned model, a new algorithm or a vision benchmark.
+Both browser inspectors accept editable input, export the current JSON report and refuse unsupported inputs. The fixed-cost inspector also shows strict single-flip trajectories and a labeled unary-only contrast. Graph cuts implements established graph cuts; it is not a learned model, a new algorithm or a vision benchmark.
 
 ## Two choices can beat every single flip
 
